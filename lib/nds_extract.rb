@@ -47,8 +47,10 @@ def total_gross(source)
   sum_for_all_directors = 0
   dir_totals = directors_totals(source)
   
-  dir_totals.each do ||
-    
+  dir_totals.each do |key, value|
+    sum += value  
+  end
+  
   return sum_for_all_directors
 end
 

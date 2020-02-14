@@ -26,6 +26,8 @@ end
 
 def list_of_directors(source)
   list = []
+  
+  source.each do |
 end
 
 def total_gross(source)

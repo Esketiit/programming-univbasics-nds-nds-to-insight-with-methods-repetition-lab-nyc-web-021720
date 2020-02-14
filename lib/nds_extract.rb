@@ -27,7 +27,11 @@ end
 def list_of_directors(source)
   list = []
   
-  source.each do |
+  source.each do |hash|
+    list << hash[:name]
+  end
+  
+  list
 end
 
 def total_gross(source)
